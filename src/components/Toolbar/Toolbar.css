@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.font_raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #143058;
+    height: 50px;
+    z-index: 80;
+}
+
+.toolbar_navigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.toolbar_logo {
+   margin-left: 1rem;
+}
+
+.spacer{
+    flex: 1;
+}
+.toolbar_navigation_items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.button-list_nav{
+    width: 80px;
+    padding: 0 1.5rem !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+.toolbar_navigation_items a:hover,
+.toolbar_navigation_items a:active{
+    color: #CAE26A;
+}
+
+.toolbar_toggle_button {
+        display: none;
+}
+
+@media (max-width: 774px) {
+    .toolbar_navigation_items {
+        display: none;
+    }
+    .toolbar_toggle_button {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px){
+    .toolbar_navigation_items {
+        display: none;
+    }
+    .toolbar {
+        width: 768px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .toolbar_navigation_items {
+        display: none;
+    }
+    .toolbar {
+        width: 376px;
+    }
+}    
