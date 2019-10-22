@@ -4,7 +4,7 @@ import Slide from 'react-reveal/Slide';
 
 import './Aboutme.css';
 import profile_photo from '../../assets/foto_perfil_1.jpg'
-import CV from '../../assets/cv/CV_JUN_2019_v1.pdf';
+import CV from '../../assets/cv/CV_JUN_211019.pdf';
 import blue_logo from '../../assets/about_me_logo_azul_250.png';
 import MyButton from '../Button/Button';
 
