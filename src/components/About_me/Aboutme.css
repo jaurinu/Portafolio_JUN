@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
+a {
+    text-decoration: none;
+    text-decoration-style: dashed;
+}
+
 .font_raleway {
     font-family: 'Raleway', sans-serif;
 }

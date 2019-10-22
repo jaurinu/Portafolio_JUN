@@ -2,9 +2,11 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jaurinu.github.io",
   "dependencies": {
     "@material-ui/core": "^4.0.0-rc.0",
     "@material-ui/icons": "^1.1.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-reveal": "^1.2.2",
@@ -15,6 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

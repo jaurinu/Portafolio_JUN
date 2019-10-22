@@ -26,12 +26,13 @@ class Description extends Component {
             <div className="right_wrapper">
             <div className="description_wrappper">
             <p>
-            Soy Janet, arquitecta de profesión, graduada de la especialidad 
-            de Front-end del Bootcamp de Laboratoria. 
+            Front-end developer egresada del Bootcamp de <a href="https://www.laboratoria.la/" target="_blank" rel="noopener noreferrer">Laboratoria</a> 
             <br /><br />
-            Con interés en participar en el desarrollo de proyectos web.
+            Me apasiona programar, deconstruir un problema en partes
+            y reconstruir una solución tecnológica que facilite los 
+            procesos de los usuarios.
             <br /><br />
-            Me apasiona la tecnología, arquitectura, música, el cine y 
+            Me gusta la tecnología, arquitectura, música, el cine y 
             la permacultura.
             </p>
             <hr></hr>
